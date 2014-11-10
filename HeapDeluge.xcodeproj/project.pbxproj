@@ -15,6 +15,9 @@
 		15823E171A1166CA001903F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15823E161A1166CA001903F7 /* Images.xcassets */; };
 		15823E1A1A1166CA001903F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15823E181A1166CA001903F7 /* LaunchScreen.xib */; };
 		15823E261A1166CB001903F7 /* HeapDelugeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15823E251A1166CB001903F7 /* HeapDelugeTests.m */; };
+		15823E391A116BAD001903F7 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 15823E381A116BAD001903F7 /* Question.m */; };
+		15823E3B1A116E93001903F7 /* SampleUser.json in Resources */ = {isa = PBXBuildFile; fileRef = 15823E3A1A116E93001903F7 /* SampleUser.json */; };
+		15823E3D1A116EDB001903F7 /* SampleQuestion.json in Resources */ = {isa = PBXBuildFile; fileRef = 15823E3C1A116EDB001903F7 /* SampleQuestion.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,10 @@
 		15823E241A1166CB001903F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15823E251A1166CB001903F7 /* HeapDelugeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeapDelugeTests.m; sourceTree = "<group>"; };
 		15823E331A1168AA001903F7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		15823E371A116BAD001903F7 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		15823E381A116BAD001903F7 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		15823E3A1A116E93001903F7 /* SampleUser.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SampleUser.json; sourceTree = "<group>"; };
+		15823E3C1A116EDB001903F7 /* SampleQuestion.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SampleQuestion.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,11 +92,9 @@
 		15823E051A1166CA001903F7 /* HeapDeluge */ = {
 			isa = PBXGroup;
 			children = (
-				15823E0A1A1166CA001903F7 /* AppDelegate.h */,
-				15823E0B1A1166CA001903F7 /* AppDelegate.m */,
-				15823E101A1166CA001903F7 /* ViewController.h */,
-				15823E111A1166CA001903F7 /* ViewController.m */,
-				15823E131A1166CA001903F7 /* Main.storyboard */,
+				15823E341A116936001903F7 /* Controller Layer */,
+				15823E361A116949001903F7 /* View Layer */,
+				15823E351A116943001903F7 /* Model Layer */,
 				15823E161A1166CA001903F7 /* Images.xcassets */,
 				15823E181A1166CA001903F7 /* LaunchScreen.xib */,
 				15823E0D1A1166CA001903F7 /* HeapDeluge.xcdatamodeld */,
@@ -122,6 +127,36 @@
 				15823E241A1166CB001903F7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15823E341A116936001903F7 /* Controller Layer */ = {
+			isa = PBXGroup;
+			children = (
+				15823E0A1A1166CA001903F7 /* AppDelegate.h */,
+				15823E0B1A1166CA001903F7 /* AppDelegate.m */,
+				15823E101A1166CA001903F7 /* ViewController.h */,
+				15823E111A1166CA001903F7 /* ViewController.m */,
+			);
+			name = "Controller Layer";
+			sourceTree = "<group>";
+		};
+		15823E351A116943001903F7 /* Model Layer */ = {
+			isa = PBXGroup;
+			children = (
+				15823E3C1A116EDB001903F7 /* SampleQuestion.json */,
+				15823E371A116BAD001903F7 /* Question.h */,
+				15823E381A116BAD001903F7 /* Question.m */,
+				15823E3A1A116E93001903F7 /* SampleUser.json */,
+			);
+			name = "Model Layer";
+			sourceTree = "<group>";
+		};
+		15823E361A116949001903F7 /* View Layer */ = {
+			isa = PBXGroup;
+			children = (
+				15823E131A1166CA001903F7 /* Main.storyboard */,
+			);
+			name = "View Layer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +240,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				15823E151A1166CA001903F7 /* Main.storyboard in Resources */,
+				15823E3D1A116EDB001903F7 /* SampleQuestion.json in Resources */,
+				15823E3B1A116E93001903F7 /* SampleUser.json in Resources */,
 				15823E1A1A1166CA001903F7 /* LaunchScreen.xib in Resources */,
 				15823E171A1166CA001903F7 /* Images.xcassets in Resources */,
 			);
@@ -226,6 +263,7 @@
 			files = (
 				15823E0C1A1166CA001903F7 /* AppDelegate.m in Sources */,
 				15823E091A1166CA001903F7 /* main.m in Sources */,
+				15823E391A116BAD001903F7 /* Question.m in Sources */,
 				15823E121A1166CA001903F7 /* ViewController.m in Sources */,
 				15823E0F1A1166CA001903F7 /* HeapDeluge.xcdatamodeld in Sources */,
 			);
@@ -420,6 +458,7 @@
 				15823E2B1A1166CB001903F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15823E2C1A1166CB001903F7 /* Build configuration list for PBXNativeTarget "HeapDelugeTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +467,7 @@
 				15823E2E1A1166CB001903F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

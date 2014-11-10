@@ -1,0 +1,27 @@
+{
+    "badge_counts":{
+        "bronze":1198,
+        "silver":1090,
+        "gold":101
+    },
+    "account_id":4243,
+    "is_employee":false,
+    "last_modified_date":1415352625,
+    "last_access_date":1415656123,
+    "reputation_change_year":84048,
+    "reputation_change_quarter":10475,
+    "reputation_change_month":2525,
+    "reputation_change_week":520,
+    "reputation_change_day":305,
+    "reputation":442520,
+    "creation_date":1221344553,
+    "user_type":"registered",
+    "user_id":6309,
+    "age":43,
+    "accept_rate":100,
+    "location":"France",
+    "website_url":"http://careers.stackoverflow.com/vonc",
+    "link":"http://stackoverflow.com/users/6309/vonc",
+    "display_name":"VonC",
+    "profile_image":"https://www.gravatar.com/avatar/7aa22372b695ed2b26052c340f9097eb?s=128&d=identicon&r=PG"
+}
