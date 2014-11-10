@@ -42,6 +42,7 @@
 		15823E1F1A1166CA001903F7 /* HeapDelugeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeapDelugeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15823E241A1166CB001903F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15823E251A1166CB001903F7 /* HeapDelugeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeapDelugeTests.m; sourceTree = "<group>"; };
+		15823E331A1168AA001903F7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +66,7 @@
 		15823DFA1A1166CA001903F7 = {
 			isa = PBXGroup;
 			children = (
+				15823E331A1168AA001903F7 /* README.md */,
 				15823E051A1166CA001903F7 /* HeapDeluge */,
 				15823E221A1166CA001903F7 /* HeapDelugeTests */,
 				15823E041A1166CA001903F7 /* Products */,
