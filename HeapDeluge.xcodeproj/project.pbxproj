@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15823E091A1166CA001903F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15823E081A1166CA001903F7 /* main.m */; };
+		15823E0C1A1166CA001903F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15823E0B1A1166CA001903F7 /* AppDelegate.m */; };
+		15823E0F1A1166CA001903F7 /* HeapDeluge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15823E0D1A1166CA001903F7 /* HeapDeluge.xcdatamodeld */; };
+		15823E121A1166CA001903F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15823E111A1166CA001903F7 /* ViewController.m */; };
+		15823E151A1166CA001903F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15823E131A1166CA001903F7 /* Main.storyboard */; };
+		15823E171A1166CA001903F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15823E161A1166CA001903F7 /* Images.xcassets */; };
+		15823E1A1A1166CA001903F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15823E181A1166CA001903F7 /* LaunchScreen.xib */; };
+		15823E261A1166CB001903F7 /* HeapDelugeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15823E251A1166CB001903F7 /* HeapDelugeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15823E201A1166CA001903F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15823DFB1A1166CA001903F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15823E021A1166CA001903F7;
+			remoteInfo = HeapDeluge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15823E031A1166CA001903F7 /* HeapDeluge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeapDeluge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15823E071A1166CA001903F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15823E081A1166CA001903F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15823E0A1A1166CA001903F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15823E0B1A1166CA001903F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15823E0E1A1166CA001903F7 /* HeapDeluge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeapDeluge.xcdatamodel; sourceTree = "<group>"; };
+		15823E101A1166CA001903F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		15823E111A1166CA001903F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		15823E141A1166CA001903F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15823E161A1166CA001903F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		15823E191A1166CA001903F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		15823E1F1A1166CA001903F7 /* HeapDelugeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeapDelugeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15823E241A1166CB001903F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15823E251A1166CB001903F7 /* HeapDelugeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeapDelugeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15823E001A1166CA001903F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15823E1C1A1166CA001903F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15823DFA1A1166CA001903F7 = {
+			isa = PBXGroup;
+			children = (
+				15823E051A1166CA001903F7 /* HeapDeluge */,
+				15823E221A1166CA001903F7 /* HeapDelugeTests */,
+				15823E041A1166CA001903F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15823E041A1166CA001903F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15823E031A1166CA001903F7 /* HeapDeluge.app */,
+				15823E1F1A1166CA001903F7 /* HeapDelugeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15823E051A1166CA001903F7 /* HeapDeluge */ = {
+			isa = PBXGroup;
+			children = (
+				15823E0A1A1166CA001903F7 /* AppDelegate.h */,
+				15823E0B1A1166CA001903F7 /* AppDelegate.m */,
+				15823E101A1166CA001903F7 /* ViewController.h */,
+				15823E111A1166CA001903F7 /* ViewController.m */,
+				15823E131A1166CA001903F7 /* Main.storyboard */,
+				15823E161A1166CA001903F7 /* Images.xcassets */,
+				15823E181A1166CA001903F7 /* LaunchScreen.xib */,
+				15823E0D1A1166CA001903F7 /* HeapDeluge.xcdatamodeld */,
+				15823E061A1166CA001903F7 /* Supporting Files */,
+			);
+			path = HeapDeluge;
+			sourceTree = "<group>";
+		};
+		15823E061A1166CA001903F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15823E071A1166CA001903F7 /* Info.plist */,
+				15823E081A1166CA001903F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15823E221A1166CA001903F7 /* HeapDelugeTests */ = {
+			isa = PBXGroup;
+			children = (
+				15823E251A1166CB001903F7 /* HeapDelugeTests.m */,
+				15823E231A1166CB001903F7 /* Supporting Files */,
+			);
+			path = HeapDelugeTests;
+			sourceTree = "<group>";
+		};
+		15823E231A1166CB001903F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15823E241A1166CB001903F7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15823E021A1166CA001903F7 /* HeapDeluge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15823E291A1166CB001903F7 /* Build configuration list for PBXNativeTarget "HeapDeluge" */;
+			buildPhases = (
+				15823DFF1A1166CA001903F7 /* Sources */,
+				15823E001A1166CA001903F7 /* Frameworks */,
+				15823E011A1166CA001903F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeapDeluge;
+			productName = HeapDeluge;
+			productReference = 15823E031A1166CA001903F7 /* HeapDeluge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15823E1E1A1166CA001903F7 /* HeapDelugeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15823E2C1A1166CB001903F7 /* Build configuration list for PBXNativeTarget "HeapDelugeTests" */;
+			buildPhases = (
+				15823E1B1A1166CA001903F7 /* Sources */,
+				15823E1C1A1166CA001903F7 /* Frameworks */,
+				15823E1D1A1166CA001903F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15823E211A1166CA001903F7 /* PBXTargetDependency */,
+			);
+			name = HeapDelugeTests;
+			productName = HeapDelugeTests;
+			productReference = 15823E1F1A1166CA001903F7 /* HeapDelugeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15823DFB1A1166CA001903F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Will Richman";
+				TargetAttributes = {
+					15823E021A1166CA001903F7 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					15823E1E1A1166CA001903F7 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 15823E021A1166CA001903F7;
+					};
+				};
+			};
+			buildConfigurationList = 15823DFE1A1166CA001903F7 /* Build configuration list for PBXProject "HeapDeluge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15823DFA1A1166CA001903F7;
+			productRefGroup = 15823E041A1166CA001903F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15823E021A1166CA001903F7 /* HeapDeluge */,
+				15823E1E1A1166CA001903F7 /* HeapDelugeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15823E011A1166CA001903F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15823E151A1166CA001903F7 /* Main.storyboard in Resources */,
+				15823E1A1A1166CA001903F7 /* LaunchScreen.xib in Resources */,
+				15823E171A1166CA001903F7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15823E1D1A1166CA001903F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15823DFF1A1166CA001903F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15823E0C1A1166CA001903F7 /* AppDelegate.m in Sources */,
+				15823E091A1166CA001903F7 /* main.m in Sources */,
+				15823E121A1166CA001903F7 /* ViewController.m in Sources */,
+				15823E0F1A1166CA001903F7 /* HeapDeluge.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15823E1B1A1166CA001903F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15823E261A1166CB001903F7 /* HeapDelugeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15823E211A1166CA001903F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15823E021A1166CA001903F7 /* HeapDeluge */;
+			targetProxy = 15823E201A1166CA001903F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15823E131A1166CA001903F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15823E141A1166CA001903F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15823E181A1166CA001903F7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15823E191A1166CA001903F7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15823E271A1166CB001903F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15823E281A1166CB001903F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15823E2A1A1166CB001903F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeapDeluge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15823E2B1A1166CB001903F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeapDeluge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		15823E2D1A1166CB001903F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HeapDelugeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeapDeluge.app/HeapDeluge";
+			};
+			name = Debug;
+		};
+		15823E2E1A1166CB001903F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HeapDelugeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeapDeluge.app/HeapDeluge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15823DFE1A1166CA001903F7 /* Build configuration list for PBXProject "HeapDeluge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15823E271A1166CB001903F7 /* Debug */,
+				15823E281A1166CB001903F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15823E291A1166CB001903F7 /* Build configuration list for PBXNativeTarget "HeapDeluge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15823E2A1A1166CB001903F7 /* Debug */,
+				15823E2B1A1166CB001903F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15823E2C1A1166CB001903F7 /* Build configuration list for PBXNativeTarget "HeapDelugeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15823E2D1A1166CB001903F7 /* Debug */,
+				15823E2E1A1166CB001903F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		15823E0D1A1166CA001903F7 /* HeapDeluge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				15823E0E1A1166CA001903F7 /* HeapDeluge.xcdatamodel */,
+			);
+			currentVersion = 15823E0E1A1166CA001903F7 /* HeapDeluge.xcdatamodel */;
+			path = HeapDeluge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 15823DFB1A1166CA001903F7 /* Project object */;
+}
