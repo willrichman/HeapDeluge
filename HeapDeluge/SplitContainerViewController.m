@@ -33,7 +33,7 @@
 #pragma mark UISplitViewControllerDelete methods
 
 - (BOOL)splitViewController:(UISplitViewController *)splitViewController collapseSecondaryViewController:(UIViewController *)secondaryViewController ontoPrimaryViewController:(UIViewController *)primaryViewController {
-    if (self.menuVC.firstLaunch) {
+    if (self.menuVC.firstLaunch == YES) {
         self.menuVC.firstLaunch = NO;
         return YES;
     }

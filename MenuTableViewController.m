@@ -10,6 +10,8 @@
 
 @interface MenuTableViewController ()
 
+@property (nonatomic, weak) IBOutlet UITableView *tableView;
+
 @end
 
 @implementation MenuTableViewController
@@ -17,8 +19,10 @@
 - (instancetype)init {
     if ((self = [super init])) {
         self.firstLaunch = YES;
+        self.tableView.rowHeight = 44;
     }
     return self;
+    
 }
 
 
