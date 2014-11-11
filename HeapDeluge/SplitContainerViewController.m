@@ -25,16 +25,11 @@
     self.menuVC = navVC.childViewControllers[0];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 #pragma mark UISplitViewControllerDelete methods
 
 - (BOOL)splitViewController:(UISplitViewController *)splitViewController collapseSecondaryViewController:(UIViewController *)secondaryViewController ontoPrimaryViewController:(UIViewController *)primaryViewController {
-    if (self.menuVC.firstLaunch == YES) {
-        self.menuVC.firstLaunch = NO;
+    if (_menuVC.firstLaunch == YES) {
+        _menuVC.firstLaunch = NO;
         return YES;
     }
     return NO;

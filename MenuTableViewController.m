@@ -17,10 +17,11 @@
 @implementation MenuTableViewController
 
 - (instancetype)init {
-    if ((self = [super init])) {
+    self = [super init];
+    if (self != nil) {
         self.firstLaunch = YES;
-        self.tableView.rowHeight = 44;
     }
+    self.firstLaunch = YES;
     return self;
     
 }
@@ -28,7 +29,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
 }
 
 @end

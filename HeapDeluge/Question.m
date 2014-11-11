@@ -19,6 +19,8 @@
         self.ownerID = [owner[@"user_id"] integerValue];
         self.ownerName = owner[@"display_name"];
         self.tags = jsonDict[@"tags"];
+        self.answers = [jsonDict[@"answer_count"] integerValue];
+        self.score = [jsonDict[@"score"] integerValue];
     }
     return self;
 }

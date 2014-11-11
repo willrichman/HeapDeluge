@@ -15,6 +15,8 @@
 @property (nonatomic) NSInteger ownerID;
 @property (nonatomic, strong) NSString *ownerName;
 @property (nonatomic, strong) NSArray *tags;
+@property (nonatomic) NSInteger answers;
+@property (nonatomic) NSInteger score;
 
 + (NSMutableArray *)parseJSONDataIntoQuestions: (NSData *) rawJSONData;
 

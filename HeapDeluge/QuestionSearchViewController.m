@@ -34,6 +34,7 @@
     QuestionCell *cell = (QuestionCell *)[tableView dequeueReusableCellWithIdentifier:@"QUESTION_CELL" forIndexPath:indexPath];
     Question *questionToDisplay = self.questionsArray[indexPath.row];
     cell.title.text = questionToDisplay.title;
+    cell.answerCount.text = [NSString stringWithFormat:@"%li", (long)questionToDisplay.answers];
     return cell;
 }
 
