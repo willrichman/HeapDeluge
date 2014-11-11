@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MenuTableViewController.h
 //  HeapDeluge
 //
 //  Created by William Richman on 11/10/14.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MenuTableViewController : UITableViewController
 
+@property BOOL firstLaunch;
 
 @end
-
