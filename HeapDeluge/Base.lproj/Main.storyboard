@@ -118,7 +118,7 @@
                                 <rect key="frame" x="0.0" y="44" width="600" height="556"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="QUESTION_CELL" rowHeight="80" id="YnK-95-eHH">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="QUESTION_CELL" rowHeight="80" id="YnK-95-eHH" customClass="QuestionCell">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YnK-95-eHH" id="qIZ-0M-gWh">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -199,6 +199,10 @@
                                                 <constraint firstItem="fgK-jQ-Aja" firstAttribute="top" secondItem="qIZ-0M-gWh" secondAttribute="topMargin" id="uS0-vf-Lap"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="answerCount" destination="V6I-yQ-NBa" id="fqR-jE-nvM"/>
+                                            <outlet property="title" destination="fgK-jQ-Aja" id="3FG-RG-j6k"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

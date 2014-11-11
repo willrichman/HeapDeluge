@@ -8,6 +8,7 @@
 
 #import "QuestionSearchViewController.h"
 #import "Question.h"
+#import "QuestionCell.h"
 
 @interface QuestionSearchViewController ()
 
@@ -25,7 +26,7 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+    QuestionCell *cell = (QuestionCell *)[tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     //cell.textLabel.text = self.people[indexPath.row];
     return cell;
 }

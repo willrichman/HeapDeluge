@@ -10,6 +10,7 @@
 		156540991A1184D100FEEBCA /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156540981A1184D100FEEBCA /* NetworkController.m */; };
 		1565409F1A11989000FEEBCA /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1565409E1A11989000FEEBCA /* MenuTableViewController.m */; };
 		156540A21A127F2600FEEBCA /* QuestionSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156540A11A127F2600FEEBCA /* QuestionSearchViewController.m */; };
+		156540A51A1281E000FEEBCA /* QuestionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 156540A41A1281E000FEEBCA /* QuestionCell.m */; };
 		15823E091A1166CA001903F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15823E081A1166CA001903F7 /* main.m */; };
 		15823E0C1A1166CA001903F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15823E0B1A1166CA001903F7 /* AppDelegate.m */; };
 		15823E0F1A1166CA001903F7 /* HeapDeluge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15823E0D1A1166CA001903F7 /* HeapDeluge.xcdatamodeld */; };
@@ -39,6 +40,8 @@
 		1565409E1A11989000FEEBCA /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuTableViewController.m; path = ../MenuTableViewController.m; sourceTree = "<group>"; };
 		156540A01A127F2600FEEBCA /* QuestionSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionSearchViewController.h; sourceTree = "<group>"; };
 		156540A11A127F2600FEEBCA /* QuestionSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionSearchViewController.m; sourceTree = "<group>"; };
+		156540A31A1281E000FEEBCA /* QuestionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionCell.h; sourceTree = "<group>"; };
+		156540A41A1281E000FEEBCA /* QuestionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionCell.m; sourceTree = "<group>"; };
 		15823E031A1166CA001903F7 /* HeapDeluge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeapDeluge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15823E071A1166CA001903F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15823E081A1166CA001903F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -165,6 +168,8 @@
 			isa = PBXGroup;
 			children = (
 				15823E131A1166CA001903F7 /* Main.storyboard */,
+				156540A31A1281E000FEEBCA /* QuestionCell.h */,
+				156540A41A1281E000FEEBCA /* QuestionCell.m */,
 			);
 			name = "View Layer";
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15823E0C1A1166CA001903F7 /* AppDelegate.m in Sources */,
+				156540A51A1281E000FEEBCA /* QuestionCell.m in Sources */,
 				156540A21A127F2600FEEBCA /* QuestionSearchViewController.m in Sources */,
 				15823E091A1166CA001903F7 /* main.m in Sources */,
 				15823E391A116BAD001903F7 /* Question.m in Sources */,
