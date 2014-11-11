@@ -16,7 +16,7 @@
         if ((self.body = [jsonDict objectForKey:@"body"])) {
         }
         NSDictionary *owner = jsonDict[@"owner"];
-        self.ownerID = owner[@"user_id"];
+        self.ownerID = [owner[@"user_id"] integerValue];
         self.ownerName = owner[@"display_name"];
         self.tags = jsonDict[@"tags"];
     }

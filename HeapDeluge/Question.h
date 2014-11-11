@@ -12,7 +12,7 @@
 
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) NSString *body;
-@property (nonatomic, strong) NSString *ownerID;
+@property (nonatomic) NSInteger ownerID;
 @property (nonatomic, strong) NSString *ownerName;
 @property (nonatomic, strong) NSArray *tags;
 
