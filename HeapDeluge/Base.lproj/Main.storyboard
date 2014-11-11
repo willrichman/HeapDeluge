@@ -5,10 +5,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Split Container View Controller-->
         <scene sceneID="B5M-CY-Ftf">
             <objects>
-                <viewController id="CBY-ph-TkQ" sceneMemberID="viewController">
+                <viewController id="CBY-ph-TkQ" customClass="SplitContainerViewController" sceneMemberID="viewController">
                     <containerView key="view" opaque="NO" contentMode="scaleToFill" id="5FA-gd-O07">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
