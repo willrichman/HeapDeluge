@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		156540991A1184D100FEEBCA /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156540981A1184D100FEEBCA /* NetworkController.m */; };
 		15823E091A1166CA001903F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15823E081A1166CA001903F7 /* main.m */; };
 		15823E0C1A1166CA001903F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15823E0B1A1166CA001903F7 /* AppDelegate.m */; };
 		15823E0F1A1166CA001903F7 /* HeapDeluge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15823E0D1A1166CA001903F7 /* HeapDeluge.xcdatamodeld */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		156540971A1184D100FEEBCA /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkController.h; sourceTree = "<group>"; };
+		156540981A1184D100FEEBCA /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
 		15823E031A1166CA001903F7 /* HeapDeluge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeapDeluge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15823E071A1166CA001903F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15823E081A1166CA001903F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -136,6 +139,8 @@
 				15823E0B1A1166CA001903F7 /* AppDelegate.m */,
 				15823E101A1166CA001903F7 /* ViewController.h */,
 				15823E111A1166CA001903F7 /* ViewController.m */,
+				156540971A1184D100FEEBCA /* NetworkController.h */,
+				156540981A1184D100FEEBCA /* NetworkController.m */,
 			);
 			name = "Controller Layer";
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				15823E091A1166CA001903F7 /* main.m in Sources */,
 				15823E391A116BAD001903F7 /* Question.m in Sources */,
 				15823E121A1166CA001903F7 /* ViewController.m in Sources */,
+				156540991A1184D100FEEBCA /* NetworkController.m in Sources */,
 				15823E0F1A1166CA001903F7 /* HeapDeluge.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

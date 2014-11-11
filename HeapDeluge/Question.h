@@ -16,6 +16,6 @@
 @property (nonatomic, strong) NSString *ownerName;
 @property (nonatomic, strong) NSArray *tags;
 
-+ (NSArray *)parseJSONDataIntoQuestions: (NSData *) rawJSONData;
++ (NSMutableArray *)parseJSONDataIntoQuestions: (NSData *) rawJSONData;
 
 @end
