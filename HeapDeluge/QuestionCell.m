@@ -11,7 +11,8 @@
 @implementation QuestionCell
 
 - (void)awakeFromNib {
-    // Initialization code
+//    self.answerView.layer.cornerRadius = 10.0f;
+//    self.voteView.layer.cornerRadius = 10.0f;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

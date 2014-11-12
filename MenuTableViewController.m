@@ -16,17 +16,6 @@
 
 @implementation MenuTableViewController
 
-- (instancetype)init {
-    self = [super init];
-    if (self != nil) {
-        self.firstLaunch = YES;
-    }
-    self.firstLaunch = YES;
-    return self;
-    
-}
-
-
 - (void)viewDidLoad {
     [super viewDidLoad];
 }

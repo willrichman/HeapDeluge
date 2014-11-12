@@ -23,6 +23,7 @@
     splitVC.delegate = self;
     UINavigationController *navVC = splitVC.childViewControllers[0];
     self.menuVC = navVC.childViewControllers[0];
+    self.menuVC.firstLaunch = YES;
 }
 
 #pragma mark UISplitViewControllerDelete methods

@@ -21,6 +21,7 @@
         self.tags = jsonDict[@"tags"];
         self.answers = [jsonDict[@"answer_count"] integerValue];
         self.score = [jsonDict[@"score"] integerValue];
+        self.date = [NSDate dateWithTimeIntervalSince1970: [jsonDict[@"creation_date"] doubleValue]];
     }
     return self;
 }

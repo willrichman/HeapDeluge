@@ -35,6 +35,17 @@
     Question *questionToDisplay = self.questionsArray[indexPath.row];
     cell.title.text = questionToDisplay.title;
     cell.answerCount.text = [NSString stringWithFormat:@"%li", (long)questionToDisplay.answers];
+    cell.voteCount.text = [NSString stringWithFormat:@"%li", (long)questionToDisplay.score];
+    if (questionToDisplay.answers > 0) {
+        cell.answerView.backgroundColor = [UIColor colorWithRed:0 green:0.8 blue:0 alpha:0.8];
+    }
+    if (questionToDisplay.score > 0) {
+        cell.voteView.backgroundColor = [UIColor colorWithRed:0 green:0.8 blue:0 alpha:0.8];
+    }
+    cell.username.text = questionToDisplay.ownerName;
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"MM-dd-yyyy"];
+    cell.Date.text = [formatter stringFromDate:questionToDisplay.date];
     return cell;
 }
 

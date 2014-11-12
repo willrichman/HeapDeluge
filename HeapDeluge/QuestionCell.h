@@ -12,5 +12,10 @@
 
 @property (nonatomic, weak) IBOutlet UILabel *title;
 @property (nonatomic, weak) IBOutlet UILabel *answerCount;
+@property (weak, nonatomic) IBOutlet UIView *answerView;
+@property (weak, nonatomic) IBOutlet UILabel *voteCount;
+@property (nonatomic, weak) IBOutlet UIView *voteView;
+@property (weak, nonatomic) IBOutlet UILabel *Date;
+@property (weak, nonatomic) IBOutlet UILabel *username;
 
 @end

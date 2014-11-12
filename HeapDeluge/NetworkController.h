@@ -10,6 +10,8 @@
 
 @interface NetworkController : NSObject
 
+@property (nonatomic, strong) NSString *token;
+
 + (id)controller;
 
 - (void)fetchQuestions:(NSString *) tag completionHandler: (void (^)(NSString *, NSMutableArray *))completionHandler;

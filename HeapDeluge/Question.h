@@ -17,6 +17,7 @@
 @property (nonatomic, strong) NSArray *tags;
 @property (nonatomic) NSInteger answers;
 @property (nonatomic) NSInteger score;
+@property (nonatomic) NSDate *date;
 
 + (NSMutableArray *)parseJSONDataIntoQuestions: (NSData *) rawJSONData;
 
