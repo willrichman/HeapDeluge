@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		152207BE1A12CE00009A65C2 /* AuthWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152207BD1A12CE00009A65C2 /* AuthWebViewController.m */; };
+		152207FB1A141E3D009A65C2 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152207FA1A141E3D009A65C2 /* MenuTableViewController.m */; };
 		156540991A1184D100FEEBCA /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156540981A1184D100FEEBCA /* NetworkController.m */; };
-		1565409F1A11989000FEEBCA /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1565409E1A11989000FEEBCA /* MenuTableViewController.m */; };
 		156540A21A127F2600FEEBCA /* QuestionSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156540A11A127F2600FEEBCA /* QuestionSearchViewController.m */; };
 		156540A51A1281E000FEEBCA /* QuestionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 156540A41A1281E000FEEBCA /* QuestionCell.m */; };
 		156540A81A1282C800FEEBCA /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 156540A71A1282C800FEEBCA /* User.m */; };
@@ -39,10 +39,10 @@
 /* Begin PBXFileReference section */
 		152207BC1A12CE00009A65C2 /* AuthWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthWebViewController.h; sourceTree = "<group>"; };
 		152207BD1A12CE00009A65C2 /* AuthWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthWebViewController.m; sourceTree = "<group>"; };
+		152207F91A141E3D009A65C2 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
+		152207FA1A141E3D009A65C2 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
 		156540971A1184D100FEEBCA /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkController.h; sourceTree = "<group>"; };
 		156540981A1184D100FEEBCA /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
-		1565409D1A11989000FEEBCA /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuTableViewController.h; path = ../MenuTableViewController.h; sourceTree = "<group>"; };
-		1565409E1A11989000FEEBCA /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuTableViewController.m; path = ../MenuTableViewController.m; sourceTree = "<group>"; };
 		156540A01A127F2600FEEBCA /* QuestionSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionSearchViewController.h; sourceTree = "<group>"; };
 		156540A11A127F2600FEEBCA /* QuestionSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionSearchViewController.m; sourceTree = "<group>"; };
 		156540A31A1281E000FEEBCA /* QuestionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionCell.h; sourceTree = "<group>"; };
@@ -150,12 +150,12 @@
 		15823E341A116936001903F7 /* Controller Layer */ = {
 			isa = PBXGroup;
 			children = (
+				152207F91A141E3D009A65C2 /* MenuTableViewController.h */,
+				152207FA1A141E3D009A65C2 /* MenuTableViewController.m */,
 				15823E0A1A1166CA001903F7 /* AppDelegate.h */,
 				15823E0B1A1166CA001903F7 /* AppDelegate.m */,
 				156540AC1A128FEF00FEEBCA /* SplitContainerViewController.h */,
 				156540AD1A128FEF00FEEBCA /* SplitContainerViewController.m */,
-				1565409D1A11989000FEEBCA /* MenuTableViewController.h */,
-				1565409E1A11989000FEEBCA /* MenuTableViewController.m */,
 				156540A01A127F2600FEEBCA /* QuestionSearchViewController.h */,
 				156540A11A127F2600FEEBCA /* QuestionSearchViewController.m */,
 				152207BC1A12CE00009A65C2 /* AuthWebViewController.h */,
@@ -300,8 +300,8 @@
 				156540AE1A128FEF00FEEBCA /* SplitContainerViewController.m in Sources */,
 				15823E391A116BAD001903F7 /* Question.m in Sources */,
 				156540991A1184D100FEEBCA /* NetworkController.m in Sources */,
-				1565409F1A11989000FEEBCA /* MenuTableViewController.m in Sources */,
 				15823E0F1A1166CA001903F7 /* HeapDeluge.xcdatamodeld in Sources */,
+				152207FB1A141E3D009A65C2 /* MenuTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
