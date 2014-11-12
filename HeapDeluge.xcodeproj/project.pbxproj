@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		152207BE1A12CE00009A65C2 /* AuthWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152207BD1A12CE00009A65C2 /* AuthWebViewController.m */; };
 		152207FB1A141E3D009A65C2 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152207FA1A141E3D009A65C2 /* MenuTableViewController.m */; };
+		152207FD1A1420B2009A65C2 /* QuestionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 152207FC1A1420B2009A65C2 /* QuestionTests.m */; };
 		156540991A1184D100FEEBCA /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156540981A1184D100FEEBCA /* NetworkController.m */; };
 		156540A21A127F2600FEEBCA /* QuestionSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156540A11A127F2600FEEBCA /* QuestionSearchViewController.m */; };
 		156540A51A1281E000FEEBCA /* QuestionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 156540A41A1281E000FEEBCA /* QuestionCell.m */; };
@@ -41,6 +42,7 @@
 		152207BD1A12CE00009A65C2 /* AuthWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthWebViewController.m; sourceTree = "<group>"; };
 		152207F91A141E3D009A65C2 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
 		152207FA1A141E3D009A65C2 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
+		152207FC1A1420B2009A65C2 /* QuestionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionTests.m; sourceTree = "<group>"; };
 		156540971A1184D100FEEBCA /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkController.h; sourceTree = "<group>"; };
 		156540981A1184D100FEEBCA /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
 		156540A01A127F2600FEEBCA /* QuestionSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionSearchViewController.h; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				15823E251A1166CB001903F7 /* HeapDelugeTests.m */,
+				152207FC1A1420B2009A65C2 /* QuestionTests.m */,
 				15823E231A1166CB001903F7 /* Supporting Files */,
 			);
 			path = HeapDelugeTests;
@@ -310,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15823E261A1166CB001903F7 /* HeapDelugeTests.m in Sources */,
+				152207FD1A1420B2009A65C2 /* QuestionTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
