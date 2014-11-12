@@ -9,6 +9,13 @@
 #import "NetworkController.h"
 #import "Question.h"
 
+@interface NetworkController()
+
+@property (nonatomic, strong) NSString *questionURLString;
+@property (nonatomic, strong) NSString *key;
+
+@end
+
 @implementation NetworkController
 
 #pragma mark Singleton method
@@ -22,8 +29,17 @@
     return controller;
 }
 
-- (void)fetchQuestions:(NSString *) tag completionHandler: (void (^)(NSString *, NSMutableArray *))completionHandler {
-    NSURL *questionsURL = [NSURL URLWithString: @"https://api.stackexchange.com/2.2/questions?site=stackoverflow"];
+- (void)fetchQuestions:(NSString *) searchTerm completionHandler: (void (^)(NSString *, NSMutableArray *))completionHandler {
+    self.questionURLString = @"https://api.stackexchange.com/2.2/search/advanced?order=desc&sort=activity&site=stackoverflow&q=";
+    self.key = @"yK9v)QQXN4qVqTec1LztTg((";
+    [self.questionURLString stringByAppendingString: searchTerm];
+    if (self.token) {
+        NSString *tokenAndKey = [NSString stringWithFormat:@"&access_token=%@&key=%@", self.token, self.key];
+        [self.questionURLString stringByAppendingString:tokenAndKey];
+    }
+         
+    NSURL *questionsURL = [NSURL URLWithString: self.questionURLString];
+
     NSURLSessionDataTask *task = [[NSURLSession sharedSession] dataTaskWithURL:questionsURL completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
         NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *) response;
             if (error != nil) {

@@ -9,6 +9,7 @@
 #import "QuestionSearchViewController.h"
 #import "Question.h"
 #import "QuestionCell.h"
+#import "NetworkController.h"
 
 @interface QuestionSearchViewController ()
 
@@ -52,9 +53,13 @@
 #pragma mark UISearchBarDelegate methods
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
-    NSData *questionsData = [NSData dataWithContentsOfFile:(@"/Users/wrichman/Desktop/repos/HeapDeluge/HeapDeluge/SampleQuestion.json")];
-    self.questionsArray = [Question parseJSONDataIntoQuestions: questionsData];
-    [self.tableView reloadData];
+//    NSData *questionsData = [NSData dataWithContentsOfFile:(@"/Users/wrichman/Desktop/repos/HeapDeluge/HeapDeluge/SampleQuestion.json")];
+//    self.questionsArray = [Question parseJSONDataIntoQuestions: questionsData];
+//    [self.tableView reloadData];
+    [[NetworkController controller] fetchQuestions: self.searchBar.text completionHandler:^(NSString *error, NSMutableArray *questions) {
+        self.questionsArray = questions;
+        [self.tableView reloadData];
+    }];
 }
 
 @end
