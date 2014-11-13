@@ -30,12 +30,12 @@
 }
 
 - (void)fetchQuestions:(NSString *) searchTerm completionHandler: (void (^)(NSString *, NSMutableArray *))completionHandler {
-    self.questionURLString = @"https://api.stackexchange.com/2.2/search/advanced?order=desc&sort=activity&site=stackoverflow&q=";
+    self.questionURLString = @"https://api.stackexchange.com/2.2/search/advanced?order=desc&sort=votes&site=stackoverflow&q=";
     self.key = @"yK9v)QQXN4qVqTec1LztTg((";
-    [self.questionURLString stringByAppendingString: searchTerm];
+    self.questionURLString = [self.questionURLString stringByAppendingString: searchTerm];
     if (self.token) {
         NSString *tokenAndKey = [NSString stringWithFormat:@"&access_token=%@&key=%@", self.token, self.key];
-        [self.questionURLString stringByAppendingString:tokenAndKey];
+        self.questionURLString = [self.questionURLString stringByAppendingString:tokenAndKey];
     }
          
     NSURL *questionsURL = [NSURL URLWithString: self.questionURLString];

@@ -32,7 +32,9 @@
     NSMutableArray *questionArray = [Question parseJSONDataIntoQuestions:jsonData];
     XCTAssertNotNil(questionArray);
     XCTAssertFalse([questionArray count] == 0);
-    XCTAssertTrue([questionArray[0] isKindOfClass: [Question class]]);
+    Question *question = questionArray[1];
+    XCTAssertTrue([question isKindOfClass: [Question class]]);
+    XCTAssertEqualObjects(question.title, @"Access to pixel values of a tif image using ITK");
 }
 
 @end
