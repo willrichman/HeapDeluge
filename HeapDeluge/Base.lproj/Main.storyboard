@@ -145,7 +145,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" placeholder="Search by tags" translatesAutoresizingMaskIntoConstraints="NO" id="Phl-eW-xDL">
+                            <searchBar contentMode="redraw" placeholder="Search" translatesAutoresizingMaskIntoConstraints="NO" id="Phl-eW-xDL">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="iVR-3i-XYh"/>
