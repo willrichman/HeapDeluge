@@ -10,4 +10,6 @@
 
 @interface MenuViewController : UIViewController
 
+- (IBAction)unwindToViewController: (UIStoryboardSegue*) sender;
+
 @end
