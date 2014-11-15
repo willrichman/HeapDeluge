@@ -12,5 +12,6 @@
 
 @property (nonatomic, weak) IBOutlet UITableView *tableView;
 @property (nonatomic, weak) IBOutlet UISearchBar *searchBar;
+@property (weak, nonatomic) IBOutlet UIButton *backButton;
 
 @end

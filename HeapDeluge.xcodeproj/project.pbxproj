@@ -24,6 +24,7 @@
 		15823E3B1A116E93001903F7 /* SampleUser.json in Resources */ = {isa = PBXBuildFile; fileRef = 15823E3A1A116E93001903F7 /* SampleUser.json */; };
 		15823E3D1A116EDB001903F7 /* SampleQuestion.json in Resources */ = {isa = PBXBuildFile; fileRef = 15823E3C1A116EDB001903F7 /* SampleQuestion.json */; };
 		158A378A1A1686F80073729A /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158A37891A1686F80073729A /* MenuViewController.m */; };
+		158A378E1A16B8370073729A /* TransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 158A378D1A16B8370073729A /* TransitionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		15823E3C1A116EDB001903F7 /* SampleQuestion.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SampleQuestion.json; sourceTree = "<group>"; };
 		158A37881A1686F80073729A /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		158A37891A1686F80073729A /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		158A378C1A16B8370073729A /* TransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionManager.h; sourceTree = "<group>"; };
+		158A378D1A16B8370073729A /* TransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +154,7 @@
 		15823E341A116936001903F7 /* Controller Layer */ = {
 			isa = PBXGroup;
 			children = (
+				158A378B1A16B7DD0073729A /* Transition Controllers */,
 				158A37881A1686F80073729A /* MenuViewController.h */,
 				158A37891A1686F80073729A /* MenuViewController.m */,
 				15823E0A1A1166CA001903F7 /* AppDelegate.h */,
@@ -186,6 +190,15 @@
 				156540A41A1281E000FEEBCA /* QuestionCell.m */,
 			);
 			name = "View Layer";
+			sourceTree = "<group>";
+		};
+		158A378B1A16B7DD0073729A /* Transition Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				158A378C1A16B8370073729A /* TransitionManager.h */,
+				158A378D1A16B8370073729A /* TransitionManager.m */,
+			);
+			name = "Transition Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,6 +311,7 @@
 				15823E091A1166CA001903F7 /* main.m in Sources */,
 				15823E391A116BAD001903F7 /* Question.m in Sources */,
 				156540991A1184D100FEEBCA /* NetworkController.m in Sources */,
+				158A378E1A16B8370073729A /* TransitionManager.m in Sources */,
 				15823E0F1A1166CA001903F7 /* HeapDeluge.xcdatamodeld in Sources */,
 				158A378A1A1686F80073729A /* MenuViewController.m in Sources */,
 			);
