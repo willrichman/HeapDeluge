@@ -1,0 +1,13 @@
+PODS:
+  - NSString-HTML (0.0.1)
+  - SVProgressHUD (HEAD based on 1.0)
+
+DEPENDENCIES:
+  - NSString-HTML (~> 0.0.1)
+  - SVProgressHUD (HEAD)
+
+SPEC CHECKSUMS:
+  NSString-HTML: 2ccaa6a9886d35f8176ee5e456442bd1524c151b
+  SVProgressHUD: 5034c6e22b8c2ca3e09402e48d41ed0340aa1c50
+
+COCOAPODS: 0.34.4
