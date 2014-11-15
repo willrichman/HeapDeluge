@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <NSString-HTML/NSString+HTML.h>
+#import <SVProgressHUD/SVProgressHUD.h>
 
 @interface QuestionSearchViewController : UIViewController <UITableViewDataSource, UISearchBarDelegate>
 

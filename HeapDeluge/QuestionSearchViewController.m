@@ -57,9 +57,11 @@
 #pragma mark UISearchBarDelegate methods
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
+    [SVProgressHUD show];
     [[NetworkController controller] fetchQuestions: self.searchBar.text completionHandler:^(NSString *error, NSMutableArray *questions) {
         self.questionsArray = questions;
         [self.tableView reloadData];
+        [SVProgressHUD dismiss];
     }];
 }
 
