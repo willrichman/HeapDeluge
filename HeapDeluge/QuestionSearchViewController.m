@@ -34,7 +34,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     QuestionCell *cell = (QuestionCell *)[tableView dequeueReusableCellWithIdentifier:@"QUESTION_CELL" forIndexPath:indexPath];
     Question *questionToDisplay = self.questionsArray[indexPath.row];
-    cell.title.text = questionToDisplay.title;
+    cell.title.text = [questionToDisplay.title kv_decodeHTMLCharacterEntities];
     cell.answerCount.text = [NSString stringWithFormat:@"%li", (long)questionToDisplay.answers];
     cell.voteCount.text = [NSString stringWithFormat:@"%li", (long)questionToDisplay.score];
     if (questionToDisplay.answers > 0) {

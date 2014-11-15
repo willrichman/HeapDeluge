@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <NSString-HTML/NSString+HTML.h>
 
 @interface QuestionSearchViewController : UIViewController <UITableViewDataSource, UISearchBarDelegate>
 

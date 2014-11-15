@@ -742,22 +742,5 @@
             </objects>
             <point key="canvasLocation" x="2520" y="907"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="7Tv-XU-zMn">
-            <objects>
-                <viewController id="3E3-Lu-ruu" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Dy8-bc-jcF"/>
-                        <viewControllerLayoutGuide type="bottom" id="VfE-tm-Gta"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="7Xm-eR-vVf">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gVo-gU-907" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-        </scene>
     </scenes>
 </document>
