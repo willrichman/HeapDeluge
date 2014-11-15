@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "TransitionManager.h"
+#import "NetworkController.h"
 
 @interface MenuViewController : UIViewController
 

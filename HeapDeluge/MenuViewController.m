@@ -21,7 +21,14 @@
     self.transitionManager = [[TransitionManager alloc] init];
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    if ([[NetworkController controller] token] != nil) {
+        self.loginButton.hidden = YES;
+    }
+}
+
 - (IBAction)pressedQuestions:(id)sender {
+    
 }
 
 - (IBAction)unwindToViewController: (UIStoryboardSegue*) sender{

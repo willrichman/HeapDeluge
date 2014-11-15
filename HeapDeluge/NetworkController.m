@@ -18,6 +18,17 @@
 
 @implementation NetworkController
 
+- (instancetype)init {
+    NSString *oAuthToken = [[NSUserDefaults standardUserDefaults] valueForKey:@"token"];
+    if ([oAuthToken isKindOfClass:[NSString class]] && (oAuthToken != nil)) {
+        NSLog(@"Found saved OAuthToken");
+        self.token = oAuthToken;
+    } else {
+        NSLog(@"No token found");
+    }
+    return self;
+}
+
 #pragma mark Singleton method
 
 + (id)controller {
