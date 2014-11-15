@@ -30,12 +30,14 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
-    // this gets a reference to the screen that we're about to transition to
-    UIViewController *toViewController = segue.destinationViewController;
-    
-    // instead of using the default transition animation, we'll ask
-    // the segue to use our custom TransitionManager object to manage the transition animation
-    toViewController.transitioningDelegate = self.transitionManager;
+    if ([segue.identifier isEqualToString: @"QUESTION_SEARCH"]) {
+        // this gets a reference to the screen that we're about to transition to
+        UIViewController *toViewController = segue.destinationViewController;
+        
+        // instead of using the default transition animation, we'll ask
+        // the segue to use our custom TransitionManager object to manage the transition animation
+        toViewController.transitioningDelegate = self.transitionManager;
+    }
 }
 
 @end

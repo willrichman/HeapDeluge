@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="jWa-oV-GsN">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -37,7 +38,7 @@
                                         </variation>
                                         <connections>
                                             <action selector="pressedQuestions:" destination="jWa-oV-GsN" eventType="touchUpInside" id="ajU-Bg-uEx"/>
-                                            <segue destination="INJ-j8-7oX" kind="presentation" id="pmN-M1-vIL"/>
+                                            <segue destination="INJ-j8-7oX" kind="presentation" identifier="QUESTION_SEARCH" id="pmN-M1-vIL"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -226,6 +227,9 @@
                                             <color key="titleColor" red="0.89411771299999998" green="0.89411771299999998" blue="0.8980392814" alpha="1" colorSpace="deviceRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="5Cc-WL-Mic" kind="presentation" id="lWy-Mv-kXX"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.1960784314" green="0.59999999999999998" blue="0.73333333329999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -662,6 +666,9 @@
                                             <color key="titleColor" red="1" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="cancelPressed:" destination="5Cc-WL-Mic" eventType="touchUpInside" id="Zaa-AE-Chp"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.1960784314" green="0.59999999999999998" blue="0.73333333329999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -703,9 +710,9 @@
                                 <exclude reference="XDF-tN-ohf"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="yfA-54-FYS"/>
                                 <exclude reference="cwn-xs-WRn"/>
                                 <exclude reference="iAa-Y6-0qb"/>
-                                <exclude reference="yfA-54-FYS"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -713,9 +720,9 @@
                                 <include reference="XDF-tN-ohf"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="yfA-54-FYS"/>
                                 <include reference="cwn-xs-WRn"/>
                                 <include reference="iAa-Y6-0qb"/>
-                                <include reference="yfA-54-FYS"/>
                             </mask>
                         </variation>
                     </view>
@@ -734,6 +741,7 @@
                         <viewControllerLayoutGuide type="bottom" id="VfE-tm-Gta"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="7Xm-eR-vVf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>

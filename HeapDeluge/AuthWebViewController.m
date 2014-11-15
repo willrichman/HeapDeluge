@@ -32,7 +32,7 @@
     self.oAuthURL = @"https://stackexchange.com/oauth/dialog";
     
     
-    CGPoint newOrigin = CGPointMake(self.view.frame.origin.x, 64);
+    CGPoint newOrigin = CGPointMake(self.view.frame.origin.x, 20);
     CGSize newSize = CGSizeMake(self.view.frame.size.width, self.view.frame.size.height - 64);
     self.webView.frame = CGRectMake(newOrigin.x, newOrigin.y, newSize.width, newSize.height);
     [self.view addSubview: self.webView];
@@ -64,12 +64,9 @@
     }
 
 }
-
-- (IBAction)cancelButton:(id)sender {
+- (IBAction)cancelPressed:(id)sender {
     [self dismissViewControllerAnimated:YES completion:^{
-        
     }];
 }
-
 
 @end
