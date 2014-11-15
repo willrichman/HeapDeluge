@@ -1,9 +1,18 @@
 
-/* Class = "IBUILabel"; text = "Username"; ObjectID = "Eel-kS-f3O"; */
-"Eel-kS-f3O.text" = "ユーザー名";
+/* Class = "IBUILabel"; text = "Tags"; ObjectID = "4e3-9K-OoM"; */
+"4e3-9K-OoM.text" = "タグ";
 
-/* Class = "IBUILabel"; text = "Profile"; ObjectID = "ICf-RB-slL"; */
-"ICf-RB-slL.text" = "プロファイル";
+/* Class = "IBUILabel"; text = "Heap Deluge"; ObjectID = "5gD-Vs-fEc"; */
+"5gD-Vs-fEc.text" = "ヒープ大洪水";
+
+/* Class = "IBUILabel"; text = "Questions"; ObjectID = "AKu-0h-FUj"; */
+"AKu-0h-FUj.text" = "質問";
+
+/* Class = "IBUILabel"; text = "Username"; ObjectID = "Eel-kS-f3O"; */
+"Eel-kS-f3O.text" = "ユーザ名";
+
+/* Class = "IBUIButton"; normalTitle = "Back"; ObjectID = "HZq-rX-B6S"; */
+"HZq-rX-B6S.normalTitle" = "戻る";
 
 /* Class = "IBUILabel"; text = "Answers"; ObjectID = "IlN-9d-d7E"; */
 "IlN-9d-d7E.text" = "回答";
@@ -11,8 +20,17 @@
 /* Class = "IBUILabel"; text = "Date"; ObjectID = "MUt-qS-Gno"; */
 "MUt-qS-Gno.text" = "日付";
 
+/* Class = "IBUILabel"; text = "Users"; ObjectID = "OKR-wa-QxI"; */
+"OKR-wa-QxI.text" = "ユーザー";
+
 /* Class = "IBUISearchBar"; placeholder = "Search"; ObjectID = "Phl-eW-xDL"; */
 "Phl-eW-xDL.placeholder" = "検索";
+
+/* Class = "IBUILabel"; text = "Profile"; ObjectID = "RTx-TD-EYO"; */
+"RTx-TD-EYO.text" = "プロファイル";
+
+/* Class = "IBUIButton"; normalTitle = "Cancel"; ObjectID = "RnS-Ic-rRh"; */
+"RnS-Ic-rRh.normalTitle" = "キャンセル";
 
 /* Class = "IBUILabel"; text = "Votes"; ObjectID = "SMU-Td-N0a"; */
 "SMU-Td-N0a.text" = "投票";
@@ -20,20 +38,17 @@
 /* Class = "IBUILabel"; text = "0"; ObjectID = "V6I-yQ-NBa"; */
 "V6I-yQ-NBa.text" = "0";
 
+/* Class = "IBUIButton"; normalTitle = "Log In"; ObjectID = "VKB-50-WOc"; */
+"VKB-50-WOc.normalTitle" = "ログイン";
+
 /* Class = "IBUILabel"; text = "Asked:"; ObjectID = "cDB-yS-UTV"; */
-"cDB-yS-UTV.text" = "尋ね:";
+"cDB-yS-UTV.text" = "質問:";
 
 /* Class = "IBUILabel"; text = "Question Text"; ObjectID = "fgK-jQ-Aja"; */
-"fgK-jQ-Aja.text" = "Question Text";
+"fgK-jQ-Aja.text" = "質問テキスト";
 
 /* Class = "IBUILabel"; text = "By:"; ObjectID = "kc3-nW-dRi"; */
-"kc3-nW-dRi.text" = "バイ:";
+"kc3-nW-dRi.text" = "で:";
 
 /* Class = "IBUILabel"; text = "0"; ObjectID = "kez-V9-nim"; */
 "kez-V9-nim.text" = "0";
-
-/* Class = "IBUIBarButtonItem"; title = "Log In"; ObjectID = "ppv-M5-rC9"; */
-"ppv-M5-rC9.title" = "ログイン";
-
-/* Class = "IBUILabel"; text = "Questions"; ObjectID = "xko-pm-gQk"; */
-"xko-pm-gQk.text" = "質問";

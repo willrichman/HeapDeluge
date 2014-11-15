@@ -107,7 +107,7 @@
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D2B-aM-ju7">
                                 <rect key="frame" x="335" y="309" width="249" height="249"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTx-TD-EYO">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="RTx-TD-EYO">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="30"/>
                                         <color key="textColor" red="0.91372549020000005" green="0.91372549020000005" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -117,7 +117,13 @@
                                 <color key="backgroundColor" red="0.25882352939999997" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="centerX" secondItem="RTx-TD-EYO" secondAttribute="centerX" id="LLn-5D-bf7"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="RTx-TD-EYO" secondAttribute="trailing" constant="45" id="YnM-hU-lwN">
+                                        <variation key="widthClass=compact" constant="16"/>
+                                    </constraint>
                                     <constraint firstAttribute="centerY" secondItem="RTx-TD-EYO" secondAttribute="centerY" constant="0.5" id="a7D-yy-1yt"/>
+                                    <constraint firstItem="RTx-TD-EYO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="D2B-aM-ju7" secondAttribute="leading" constant="45" id="eXH-O0-xdl">
+                                        <variation key="widthClass=compact" constant="16"/>
+                                    </constraint>
                                     <constraint firstAttribute="width" secondItem="D2B-aM-ju7" secondAttribute="height" multiplier="1:1" id="h5G-EM-Ve2"/>
                                 </constraints>
                                 <variation key="default">
@@ -126,7 +132,9 @@
                                     </mask>
                                     <mask key="constraints">
                                         <exclude reference="LLn-5D-bf7"/>
+                                        <exclude reference="YnM-hU-lwN"/>
                                         <exclude reference="a7D-yy-1yt"/>
+                                        <exclude reference="eXH-O0-xdl"/>
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact">
@@ -135,7 +143,9 @@
                                     </mask>
                                     <mask key="constraints">
                                         <include reference="LLn-5D-bf7"/>
+                                        <include reference="YnM-hU-lwN"/>
                                         <include reference="a7D-yy-1yt"/>
+                                        <include reference="eXH-O0-xdl"/>
                                     </mask>
                                 </variation>
                             </view>
