@@ -7,9 +7,6 @@
 //
 
 #import "QuestionSearchViewController.h"
-#import "Question.h"
-#import "QuestionCell.h"
-#import "NetworkController.h"
 
 @interface QuestionSearchViewController ()
 

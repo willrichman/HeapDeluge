@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 #import <NSString-HTML/NSString+HTML.h>
 #import <SVProgressHUD/SVProgressHUD.h>
+#import "Question.h"
+#import "QuestionCell.h"
+#import "NetworkController.h"
 
 @interface QuestionSearchViewController : UIViewController <UITableViewDataSource, UISearchBarDelegate>
 
